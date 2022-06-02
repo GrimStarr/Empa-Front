@@ -20,7 +20,7 @@ const NewsList = (props) => {
           <p>{item.brief}</p>
           {/* <Button link={`/newsView/${item.id}`}>Дэлгэрэнгүй</Button> */}
           <Button
-            link={` http://beta.empasoft.mn:5000/newsView/${item.id}/content`}
+            link={` http://empasoft.mn:5000/newsView/${item.id}/content`}
           >
             Дэлгэрэнгүй
           </Button>

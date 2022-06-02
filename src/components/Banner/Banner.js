@@ -85,6 +85,7 @@ class Banner extends Component {
                 height: "100%",
                 backgroundRepeat: " no-repeat",
                 position: "responsive",
+                color: item.color ? item.color : "black",
               }}
             >
               <div className={classes.center}>
@@ -93,7 +94,7 @@ class Banner extends Component {
                 {item.link === "undefined" ? (
                   ""
                 ) : (
-                  <Button link={item.link} state="banner">
+                  <Button link={item.link} state="banner" color={item.color}>
                     Дэлгэрэнгүй
                   </Button>
                 )}

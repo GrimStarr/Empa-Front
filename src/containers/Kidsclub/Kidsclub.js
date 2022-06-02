@@ -135,7 +135,7 @@ class Kidsclub extends Component {
       <div className={classes.Kidsclub}>
         <Header isHome={false} title={"Kids Club"} bgColor="kidsclub" />
         <KidsValues />
-        <KidsTrainings trainings={this.state.trainings} />
+        {/* <KidsTrainings trainings={this.state.trainings} /> */}
         <KidsBenefits />
 
         {/* <Form title={formData.title} inputs={formData.inputs} /> */}

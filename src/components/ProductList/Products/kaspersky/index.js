@@ -20,7 +20,7 @@ export default function Kaspersky() {
       </div>
       <div className={classes.Items}>
         <div className={classes.item}>
-          <img src="http://empasoft.mn/wp-content/uploads/2020/03/e4.png" />
+          <img src="http://52.183.69.113/wp-content/uploads/2020/03/e4.png" />
           <h2>Гэр бүр, хувь хүнд</h2>
           <p>
             Дижитал ертөнцөд компьютер, таблет, гар утас зэрэг төхөөрөмжөөр таны
@@ -30,7 +30,7 @@ export default function Kaspersky() {
           </p>
         </div>
         <div className={classes.item}>
-          <img src="http://empasoft.mn/wp-content/uploads/2020/03/e4.png" />
+          <img src="http://52.183.69.113/wp-content/uploads/2020/03/e4.png" />
           <h2>Жижиг бизнес эрхлэгчдэд (1-50 хэрэглэгч)</h2>
           <p>
             Жижиг бизнес эрхэлдэг таны цаг хугацаа таны бизнестэй адил үнэтэй
@@ -40,7 +40,7 @@ export default function Kaspersky() {
           </p>
         </div>
         <div className={classes.item}>
-          <img src="http://empasoft.mn/wp-content/uploads/2020/03/e4.png" />
+          <img src="http://52.183.69.113/wp-content/uploads/2020/03/e4.png" />
           <h2>Дунд бизнес эрхлэгчдэд (51-999 хэрэглэгч)</h2>
           <p>
             Хэрэв таны бизнес хурдацтай хөгжиж, дижитал өөрчлөлтийн эрчимтэй
@@ -50,7 +50,7 @@ export default function Kaspersky() {
           </p>
         </div>
         <div className={classes.item}>
-          <img src="http://empasoft.mn/wp-content/uploads/2020/03/e4.png" />
+          <img src="http://52.183.69.113/wp-content/uploads/2020/03/e4.png" />
           <h2>Томоохон бизнес эрхлэгчдэд (1000 дээш хэрэглэгч)</h2>
           <p>
             Аливаа кибер аюулыг таамаглаж, хамгаалж, хариу үйлдэл үзүүлэх

@@ -17,6 +17,8 @@ const Admin = () => {
     price: null,
     training_language: null,
     capacity: null,
+    form_id:
+      "<script charset='utf-8' type='text/javascript' src='//js.hsforms.net/forms/shell.js'></script><script>hbspt.forms.create({region: 'na1',portalId: '3362823',formId: '81d5a457-d7c3-498a-839d-b75760059e54'});</script>",
   });
   const [image, setImage] = useState();
   const [isValid, setIsValid] = useState(true);
@@ -106,7 +108,7 @@ const Admin = () => {
       data.append("capacity", body.capacity);
       data.append("form_id", body.form_id);
       data.append("token", localStorage.getItem("token"));
-
+      console.log(body);
       const res = createTraining(data);
     }
   };

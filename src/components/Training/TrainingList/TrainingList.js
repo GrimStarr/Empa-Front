@@ -32,7 +32,7 @@ const TrainingList = (props) => {
                 {/* <span>&nbsp;{item.capacity}</span> */}
                 {/* <Button link={`/page/${item.id}`} color={"white"}> */}
                 <Button
-                  link={`http://beta.empasoft.mn:5000/trainingView/${item.id}/content`}
+                  link={`http://empasoft.mn:5000/trainingView/${item.id}/content`}
                   color={"white"}
                 >
                   Дэлгэрэнгүй

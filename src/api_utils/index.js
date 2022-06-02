@@ -54,7 +54,9 @@ export const get_page = async (pageId) => {
 export const delete_training = async (id, title) => {
   try {
     const deleteData = await axios
-      .delete(`${API_HOST}/training/${id}/${title}`)
+      .post(`${API_HOST}/training/delete/${id}/${title}`, {
+        token: localStorage.getItem("token"),
+      })
       .then((res) => console.log(res.data));
   } catch (error) {
     console.log("error :>>", error);
@@ -80,7 +82,9 @@ export const banner_upload = async (body) => {
 export const delete_Banner = async (id) => {
   try {
     const dBanner = await axios
-      .delete(`${API_HOST}/banner/${id}`)
+      .post(`${API_HOST}/banner/delete/${id}`, {
+        token: localStorage.getItem("token"),
+      })
       .then((res) => console.log(res.data));
   } catch (error) {
     console.log("error :>>", error);
@@ -96,7 +100,9 @@ export const news_upload = async (body) => {
 };
 export const delete_news = async (id) => {
   try {
-    const dNews = await axios.delete(`${API_HOST}/news/${id}`);
+    const dNews = await axios.post(`${API_HOST}/news/delete/${id}`, {
+      token: localStorage.getItem("token"),
+    });
     return dNews;
   } catch (error) {
     console.log("error :>>", error);

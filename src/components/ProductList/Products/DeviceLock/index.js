@@ -4,63 +4,63 @@ export const DeviceLock = (props) => {
   const [varData, setvarData] = useState([
     {
       title: "Төхөөрөмжийн хандатын хяналт",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d1.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d1.jpg",
     },
     {
       title: "Сүлжээний холболтын хяналт",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d2.png",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d2.png",
     },
     {
       title: "Агуулга шүүх",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d3.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d3.jpg",
     },
     {
       title: "Хостод суурилсан OCR",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d4.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d4.jpg",
     },
     {
       title: "Агуулга илрүүлэх",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d5.png",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d5.png",
     },
     {
       title: "Хамгаалалтыг хуурамчаар үйлдэх",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d6.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d6.jpg",
     },
     {
       title: "Active Directory Group Policy-д нэгтгэсэн",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d7.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d7.jpg",
     },
     {
       title: "Төвлөрсөн тохиргоо ба суурилуулалт",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d8.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d8.jpg",
     },
     {
       title: "Түгээмэл төрлийн файлуудыг хянана",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d9.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d9.jpg",
     },
     {
       title: "Clipboard (түр санах ойн) хяналт",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d10.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d10.jpg",
     },
     {
       title: "Медиа зөвшөөрлийн жагсаалт (Media White List)",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d11.png",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d11.png",
     },
     {
       title: "USB зөвшөөрлийн жагсаалт (USB While List)",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d12.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d12.jpg",
     },
     {
       title: "Зөвшөөрлийн түр жагсаалт",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d13.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d13.jpg",
     },
     {
       title: "Аудит",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d14.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d14.jpg",
     },
     {
       title: "Хуулбарлах (Shadowing)",
-      img: "http://empasoft.mn/wp-content/uploads/2020/03/d15.jpg",
+      img: "http://52.183.69.113/wp-content/uploads/2020/03/d15.jpg",
     },
   ]);
 

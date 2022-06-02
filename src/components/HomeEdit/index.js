@@ -67,6 +67,7 @@ const HomeEdit = () => {
       data.append("link", body.link);
       data.append("title", body.title);
       data.append("page", body.page);
+      data.append("color", body.color);
       data.append("token", localStorage.getItem("token"));
       banner_upload(data);
     }
@@ -116,13 +117,22 @@ const HomeEdit = () => {
             </Form.Group>
           </Row>
           <Row className="mb-3">
-            <Form.Group as={Col} md="12">
+            <Form.Group as={Col} md="6">
               <Form.Label>Body</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Text"
                 onChange={(e) => handle(e)}
                 id="body"
+              />
+            </Form.Group>
+            <Form.Group as={Col} md="6">
+              <Form.Label>Text Color</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="RGB"
+                onChange={(e) => handle(e)}
+                id="color"
               />
             </Form.Group>
           </Row>

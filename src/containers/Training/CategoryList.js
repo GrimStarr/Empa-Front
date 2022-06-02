@@ -33,7 +33,7 @@ class Training extends Component {
       },
       {
         id: 3,
-        title: "Шинээр мэргэшүүлэх урт хугацааны сургалт",
+        title: "Гадаад сургалт",
         icon: "https://th.bing.com/th/id/R.611ed2f97be3c95e8593751ed4d43b55?rik=MVz%2fjZFES2U6sg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_157699.png&ehk=Welf6ISbB4nxc5Gk2zF9lKDBdgcjFL2qAjvoP3y%2baXA%3d&risl=&pid=ImgRaw&r=0",
         brief: "text",
       },
